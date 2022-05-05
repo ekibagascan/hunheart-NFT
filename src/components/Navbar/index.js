@@ -79,7 +79,9 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
 
-            <ConnectButton to="/mint">LIVE MINTING!</ConnectButton>
+            <ConnectButton to="/mint" target="_blank">
+              LIVE MINTING!
+            </ConnectButton>
           </NavMenu>
         </NavbarContainer>
       </Nav>
